@@ -1,0 +1,1 @@
+web: rvm use ruby && bundle exec rackup config.ru -p $PORT
