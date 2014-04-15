@@ -1,3 +1,27 @@
-%div
+%div{:style=>""}
   %h1
     TIMESPACE
+    
+%div{:style=>"width:800;"}
+
+  %h2
+    Today is #{@now.strftime("%Y-%m-%d")}. Until #{@final.strftime("%Y-%m-%d")}, we are closer in time to the monument than the monument is to the event it commemerates.  This will be true for 
+    %span{:id=>"countdown"}
+      = @days_remaining
+    days.
+      
+  %div{:style=>"float:left;"}
+    %h3
+      = @initial.strftime("%Y-%m-%d")
+    %img{:src=>"https://farm8.staticflickr.com/7376/13682344054_46396257a9_d.jpg"}
+
+    
+  %div{:style=>"float:right;"}
+    %h3
+      = @next.strftime("%Y-%m-%d")
+    %img{:src=>"https://farm8.staticflickr.com/7242/13681997075_e0d992d6a0_d.jpg"}
+    
+  %div{:style=>"clear:both;"}
+  
+%div
+  Find me on <a href="http://github.com/terryg/timespace">Github</a>.
