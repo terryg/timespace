@@ -10,8 +10,12 @@ class App < Sinatra::Base
   get '/:id' do
     @events = Event.make
 
+    @sets = (@events.size / 2).enum_for(:times).collect{|x| x + 1}
+
     e1 = nil
     e2 = nil
+
+    @eid = params[:id].to_i
 
     @events.each do |e|
       if e[0] == params[:id] and e1.nil?

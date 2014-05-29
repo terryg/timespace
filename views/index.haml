@@ -1,10 +1,20 @@
 %div{:style=>""}
   %h1
     TIMESPACE
-    
-%div{:style=>"width:1000;"}
 
   %h2
+    %ul{:style=>"list-style-type:none;margin:0;padding:0;"}
+    - @sets.each do |s|
+      %li{:style=>"display:inline;margin:20px"}
+        - if @eid == s
+          Set #{s}
+        - else
+          %a{:href=>"/#{s}"}
+            Set #{s}
+
+%div{:style=>"width:1000;"}
+
+  %h3
     #{@description}
       
   %div{:style=>"float:left;"}
