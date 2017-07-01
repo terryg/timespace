@@ -4,3 +4,5 @@
 4,2,1844-10-22,https://farm8.staticflickr.com/7070/13918808628_e158a3e80f.jpg
 5,3,1889-03-08,https://c2.staticflickr.com/4/3944/18925373896_ffe5edf85e_z.jpg
 6,3,1899-07-01,https://c1.staticflickr.com/1/370/18329057314_898db2f31e_z.jpg
+7,4,1866-02-01,https://farm1.staticflickr.com/492/31018203033_6e3a4abf99_b.jpg
+8,4,1991-01-01,https://farm1.staticflickr.com/701/31018199263_7d2726046a_z.jpg
