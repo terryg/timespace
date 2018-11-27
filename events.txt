@@ -12,3 +12,5 @@
 12,6,1916-03-01,https://farm2.staticflickr.com/1819/42981603525_f09b3812e4_o.jpg
 13,7,1876-03-10,https://farm2.staticflickr.com/1819/42981603525_f09b3812e4_o.jpg
 14,7,2006-03-01,https://farm2.staticflickr.com/1819/42981603525_f09b3812e4_o.jpg
+15,8,1945-08-15,https://farm5.staticflickr.com/4855/45795425862_00f23583f2_z.jpg
+16,8,1968-11-11,https://farm5.staticflickr.com/4892/44251471890_aa68ef179c_z.jpg
